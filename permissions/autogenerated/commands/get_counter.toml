@@ -1,0 +1,13 @@
+# Automatically generated - DO NOT EDIT!
+
+"$schema" = "../../schemas/schema.json"
+
+[[permission]]
+identifier = "allow-get-counter"
+description = "Enables the get_counter command without any pre-configured scope."
+commands.allow = ["get_counter"]
+
+[[permission]]
+identifier = "deny-get-counter"
+description = "Denies the get_counter command without any pre-configured scope."
+commands.deny = ["get_counter"]
